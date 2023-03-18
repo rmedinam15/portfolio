@@ -6,127 +6,137 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>portfolio</title>
         <link rel="stylesheet" href="css/styles.css">
-         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+        <link rel="icon" type="image/x-icon" href="images/digital_resume.png">
     </head>
 
     <body>
-        <!--navbar section-->
-        <div class="wrapper">
-          <header>
-            <nav class="navbar">
-              <div class="brand">
-                <h2>R<span>M</span></h2>
-              </div>
-              <ul class="menu">
-                <li><a href="#main_me"  class="active">Inicio</a></li>
-                <li><a href="#about_me">Quien Soy</a></li>
-                <li><a href="#my_portfolio">Portafolio</a></li>
-                <li><a href="#contact_me">Contacto</a></li>
-              </ul>
-            </nav>
-          </header>
-          <!--main content section-->
-          <main class="main" id="main_me">
-            <div class="info-content">
-              <h1>I'm <span>Ronald</span> Medina</h1>
-               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt facilis minima eveniet accusamus rem sint doloribus quia eligendi expedita optio, dolore quo ipsa atque. Expedita doloremque deleniti alias iste quia?</p>
-               <a download href="CV Ronald Mauricio Medina Madera.pdf"><button class="download-cv">Download CV</button></a>
+      <!--navbar section-->
+      <div class="wrapper">
+        <header>
+          <nav class="navbar">
+            <div class="brand">
+              <h2>R<span>M</span></h2>
             </div>
-            
-            <img src="images/Me-removebg.png" alt="">
-            
-          </main>
+            <ul class="menu">
+              <li><a href="#main_me"  class="active">Inicio</a></li>
+              <li><a href="#about_me">Quien Soy</a></li>
+              <li><a href="#my_portfolio">Portafolio</a></li>
+              <li><a href="#contact_me">Contacto</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <!--main content section-->
+        <main class="main" id="main_me">
+          <div class="info-content">
+            <h1>I'm <span>Ronald</span> Medina</h1>
+              <p>Ingeniero electrónico con énfasis en el sector de TI con al rededor de 3 años de experiencia en el sector. Dispongo de gran motivación para seguir perfeccionando habilidades y crecer profesionalmente. Confío plenamente en mi capacidad de producir ideas interesantes que no pasarán desapercibidas.</p>
+              <a download href="CV Ronald Mauricio Medina Madera.pdf"><button class="download-cv">Download CV</button></a>
+          </div>
+          <img src="images/Me-removebg.png" alt="">
+        </main>
+      </div>
+
+      <!--about me section-->
+      <div class="about" id="about_me">
+        <img src="images/Foto Ronald Medina 2.jpg" alt="">
+        <div class="about-info">
+          <h2>About me</h2>
+          <div class="divider"></div>
+          <p>¡Gracias por visitar mi perfil, te hago un resumen!: Aproximadamente 3 años de experiencia en el sector de las TI, como Administración de Redes, Infraestructura, herramientas y plataformas de monitoreo y Desarollador autónomo. Te detallo un poco más mi trayectoria:</p>
+          <p>Actualmente soy Analista en Diseño y Configuración de Monitoreo en Arus para el proyecto de Bancolombia. Nuestro propósito es proveer información oportuna y veraz sobre el estado operativo de los servicios de TI (en términos de disponibilidad, desempeño y riesgos) desde la perspectiva de infraestructura hasta la experiencia de nuestros clientes y usuarios.</p>
+          <p>Anteriormente me encontraba en el rol de Ingeniero Networking donde era el encargado de velar por la administración adecuada y disponibilidad en términos de red de más de 400 sucursales para el proyecto de Grupo. Garantizándo así, su operatividad y conectividad de sus sedes.</p>
+          <p>Así mismo, cumplí con el rol de Ingeniero de Infraestructura para el proyecto de Grupo Argos, donde el objetivo fue velar por el correcto diseño y configuración de las herramientas de monitoreo garantizando el alertamiento oportuno y eficaz a los equipos resolutores. Adicional de proponer la automatización de procesos y configuraciones a través del lenguaje de programación Python con el fin de optimizar costos y tiempo en la operación.</p>
+          <p>Adicional, me encuentro estudiando desarrollo fullstack, con tecnologías como HTML, CSS, Javascript, NodeJS, Python y Django adicional de aprender sobre la infraestructura en nube AWS y microservicios.</p>
+          <a download href="CV Ronald Mauricio Medina Madera.pdf"><button class="download-cv">Read more</button></a>
         </div>
-          <div class="about" id="about_me">
-            <img src="images/Foto Ronald Medina 2.jpg" alt="">
-            <div class="about-info">
-              <h2>About me</h2>
-              <div class="divider"></div>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id cumque asperiores fugit, quis repudiandae accusamus quisquam modi numquam laudantium fugiat enim eum pariatur amet illum recusandae debitis reprehenderit sed?</p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores id cumque asperiores fugit, quis repudiandae accusamus quisquam modi numquam laudantium fugiat enim eum pariatur amet illum recusandae debitis reprehenderit sed?</p>
-              <a download href="CV Ronald Mauricio Medina Madera.pdf"><button class="download-cv">Read more</button></a>
+      </div>
+
+      <!--Portfolio section-->
+      <div class="portfolio" id="my_portfolio">
+        <div class="portfolio-heading">
+          <h2>My Portfolio</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="container">
+          <div class="card">
+            <div class="card__img">
+              <img src="images/DiagnosticHost.png" alt="" height="150">
+            </div>
+            <div class="card__title">
+              <h2>Diagnosting Hosts</h2>
+            </div>
+            <div class="card__proyect-links">
+              <a href="https://github.com/rmedinam15/DiagnosticsHost">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://github.com/rmedinam15/DiagnosticsHost/blob/master/main.py">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="#">Project Details</a>
+              </button>
             </div>
           </div>
-          <!--Portfolio section-->
-          <div class="portfolio" id="my_portfolio">
-            <div class="portfolio-heading">
-              <h2>My Portfolio</h2>
-              <div class="divider"></div>
+          <div class="card">
+            <div class="card__img">
+              <img src="images/NetworkingConfigAutomation.png" alt="" height="150">
             </div>
-            <div class="container">
-              <div class="card">
-                <div class="card__img">
-                </div>
-                <div class="card__title">
-                  <h2>Diagnosting Hosts</h2>
-                </div>
-                <div class="card__proyect-links">
-                  <a href="https://github.com/rmedinam15/DiagnosticsHost">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://github.com/rmedinam15/DiagnosticsHost/blob/master/main.py">
-                    <i class="fas fa-code"></i>
-                  </a>
-                </div>
-                <div class="button-content">
-                  <button class="project-details-button download-cv">
-                    <a href="#">Projecto Details</a>
-                  </button>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card__img">
-                </div>
-                <div class="card__title">
-                  <h2>Networking Config Automation</h2>
-                </div>
-                <div class="card__proyect-links">
-                  <a href="https://github.com/rmedinam15/NetworkingConfigAutomation">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://github.com/rmedinam15/NetworkingConfigAutomation/blob/master/main.py">
-                    <i class="fas fa-code"></i>
-                  </a>
-                </div>
-                <div class="button-content">
-                  <button class="project-details-button download-cv">
-                    <a href="#">Project Details</a>
-                  </button>
-                </div>
-              </div>
-              <div class="card">
-                <div class="card__img">
-                </div>
-                <div class="card__title">
-                  <h2>Online store</h2>
-                </div>
-                <div class="card__proyect-links">
-                  <a href="https://github.com/rmedinam15/Online_Store">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://github.com/rmedinam15/Online_Store/tree/master/online_store">
-                    <i class="fas fa-code"></i>
-                  </a>
-                </div>
-                <div class="button-content">
-                  <button class="project-details-button download-cv">
-                    <a href="#">Project Details</a>
-                  </button>
-                </div>
-              </div>
+            <div class="card__title">
+              <h2>Networking Config Automation</h2>
+            </div>
+            <div class="card__proyect-links">
+              <a href="https://github.com/rmedinam15/NetworkingConfigAutomation">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://github.com/rmedinam15/NetworkingConfigAutomation/blob/master/main.py">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="#">Project Details</a>
+              </button>
             </div>
           </div>
-          <!--Footer section-->
-          <footer class="footer" id="contact_me"> 
-            <div class="footer-content">
-              <h2>Ronald Medina</h2>
-              <h5>Fullstack Developer</h5>
+          <div class="card">
+            <div class="card__img">
+              <img src="images/OnlineStore.png" alt="" height="150">
             </div>
-            <div class="sotial-networks">
-              <a href="https://github.com/rmedinam15" class="fab fa-github"></a>
-              <a href="https://www.linkedin.com/in/rmedina15/" class="fab fa-linkedin"></a>
-              <a href="http://wa.me/+573127151984" class="fab fa-whatsapp"></a>
+            <div class="card__title">
+              <h2>Online store</h2>
             </div>
-          </footer>
+            <div class="card__proyect-links">
+              <a href="https://github.com/rmedinam15/Online_Store">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://github.com/rmedinam15/Online_Store/tree/master/online_store">
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+            <div class="button-content">
+              <button class="project-details-button download-cv">
+                <a href="#">Project Details</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Contact me section-->
+      <footer class="footer" id="contact_me"> 
+        <div class="footer-content">
+          <h2>Ronald Medina</h2>
+          <h5>Fullstack Developer</h5>
+        </div>
+        <div class="sotial-networks">
+          <a href="https://github.com/rmedinam15" class="fab fa-github"></a>
+          <a href="https://www.linkedin.com/in/rmedina15/" class="fab fa-linkedin"></a>
+          <a href="http://wa.me/+573127151984" class="fab fa-whatsapp"></a>
+        </div>
+      </footer>
     </body>
 </html>

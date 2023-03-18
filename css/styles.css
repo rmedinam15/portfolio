@@ -316,7 +316,7 @@ h1 {
 
 .portfolio .container {
   width: 80vw;
-  height: 80vh;
+  height: 60vh;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -325,6 +325,7 @@ h1 {
 
 .card {
   width: 300px;
+  height: 400px;
   background-color: #2b3058;
   margin: 1em;
 }
@@ -334,6 +335,9 @@ h1 {
   height: 150px;
   background-image: url(../img/2-original.png);
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card__title {
@@ -362,6 +366,9 @@ h1 {
 .project-details-button a {
   text-decoration: none;
   color: #191c32;
+  display: flex;
+  justify-content: center;
+  
 }
 
 .contact-section {
@@ -372,7 +379,6 @@ h1 {
   margin: 0 auto;
   margin-top: 10em;
 }
-
 
 
 .contact-section img {
